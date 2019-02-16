@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lista de tarefas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="salvar">Salvar</string>
+</resources>

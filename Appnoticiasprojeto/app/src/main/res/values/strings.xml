@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App noticias projeto</string>
+    <string name="noticia_1">Aprenda sobre edição de imagens</string>
+    <string name="date_10.08.2018">10/08/2018</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="back">ANTERIOR</string>
+</resources>

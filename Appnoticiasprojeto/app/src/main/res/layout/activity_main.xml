@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="217dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/celular" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="277dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/noticia_1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/date_10.08.2018"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/next"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/back"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button3"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Felipe Cardoso dos Santos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="0dp"
+            android:layout_height="195dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhjflkajfçlhjfladjf gflahj uighaçdkijçladfjdlafkj hgoçaihçldkjfladfjdkjasf ghdahjdsçlkfjaçldfjlashg oughaçlkjdflasdjfkljasg uihgorijqa~reghijçkatgyreaodkjçfla hjçldaihfjuoçali~epogjai ~çdolkijfaç lihgfoçeiahjç~dklja çldhfjhfjashfdasflasj kljfldas jfdçlasfj lça jladkfjlaçfkjauihfçaldhfjçlasfj çladfkjçlaihfjleaifjçldfjçla joifhjeaoçfjkidfjladfjlçaj fiehja~çfdjlçafjfahfdhakhfakfh dsjhfkasdhfkashf adjhf lkjdhf kj hhfdkjahkdfjhasçfhjd kjadhfakjdhfkajh  jhçfkjangçugrenklhjadç hjdnfaçdnjfçah hfenjçfjadnkl jnjd hfas
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhjajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhjajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj
+ajdhfkahfjçlahfjdlkfjlakj
+            fkhdasçfhjaçgriajçdij oçaidhj"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
